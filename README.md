@@ -1,12 +1,9 @@
 # devops-ci-cd-project
-1.Developer Push Code
-       
-2.GitHub Repository
-
-3.GitHub Actions (CI Pipeline)
-  - Build Docker Image
-  -Docker Container
-  -AWS EC2 Instance (CD Deployment)
-
-4.Application accessible via:
- http://18.207.154.21:5001
+Architecture Overview
+This project implements a complete CI/CD pipeline for a containerized web application:
+Source code is stored in GitHub.
+On every push, GitHub Actions automatically builds the Docker image (CI).
+The Dockerized application is deployed to an AWS EC2 instance (CD).
+The application is accessible publicly through the EC2 public IP.
+<img width="328" height="454" alt="image" src="https://github.com/user-attachments/assets/f46d8b67-bf91-4ec9-9b38-17d867cd8b88" />
+Pipeline Flow: GitHub → GitHub Actions → Docker Container → AWS EC2 Deployment
