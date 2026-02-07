@@ -16,4 +16,4 @@ Developer Push Code
         │
         ▼
  Application accessible via:
- http://EC2-PUBLIC-IP:5001
+ http://18.207.154.21:5001
